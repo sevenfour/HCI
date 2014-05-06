@@ -1,0 +1,22 @@
+/* timeApplicator */
+/* Custom modifications */
+
+/* Header hovers: Home, Help, FAQ, Log-Out */
+.u5:hover, .u6:hover, .u7:hover, .u8:hover {
+	text-decoration: underline;
+}
+
+/* Google, Twitter, Facebook */
+
+.u15, .u16, .u17 {
+	color:#929292;
+}
+
+/* Schedule Draft, Employee, Day Off Requests, Availability */
+
+.u19, .u20, .u21, .u22 {
+	color:#929292;
+}
+
+
+

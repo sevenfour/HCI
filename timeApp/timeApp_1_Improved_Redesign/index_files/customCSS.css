@@ -1,0 +1,137 @@
+/* timeApplicator */
+/* Custom CSS */
+
+
+/* Google, Twitter, Facebook */
+
+.u8, .u9, .u10 {
+	color: #929292;
+	outline: none;
+}
+
+/* Bottom navigation */
+/* Schedule Draft, Employee */
+
+.u12, .u13 {
+	color: #929292;
+}
+
+/* Watch */
+
+div#main_container div#u18.u18_container div#u19.u19 div#u19_rtf img {
+	position: absolute;
+	top: 30px;
+	margin-left: 80px;
+	visibility: visible;
+	
+}
+
+/* Custom styles for datePicker*/
+/* Modifications */
+
+#datepicker {
+	margin-top: 240px;
+	margin-left: 37px;
+	width: 250px;
+}
+
+div#datepicker.hasDatepicker div.ui-datepicker-inline {
+	width: 205px;
+}
+
+.ui-datepicker-month, .ui-datepicker-year {
+	font-size: 13px;	
+}
+
+.ui-datepicker .ui-datepicker-header {
+	height: 20px;
+}
+
+
+/* To remove the border around calendars */
+.ui-datepicker-inline {
+	border: none;
+}
+
+/* Calendar bottom line width */
+.ui-datepicker-buttonpane {
+	width: 197px;
+}
+
+/* To place first and second months columns vertically (one beneath another one) */
+.ui-datepicker-group-last{
+	float: center;
+}
+
+html body div#datepicker.hasDatepicker div.ui-datepicker-inline div.ui-datepicker-group table.ui-datepicker-calendar tbody tr td:nth-child(5) a.ui-state-default {
+	color: #F56767;
+}
+
+/* Line above the "Today" button */
+.ui-datepicker-buttonpane .ui-widget-content {
+	border-top-width: 0px;
+}
+
+/* "Today" button */
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	display: none;
+}
+
+/* Border beneath the datePicker */
+html body div#ui-datepicker-div.ui-datepicker {
+	display: none;
+}
+
+/* Slider */
+
+.mySlider {
+	position: absolute;
+	top: 225px;
+	left: 278px;
+	height: 170px;  
+    width: 720px; 
+    /*overflow: hidden;*/
+    padding: 0;  
+    margin:  0; 
+}
+
+.slider { 
+	width: 720px;
+	height: 400px;
+	margin-left: 3px; 
+} 
+ 
+.slider img {        
+    width: 712px; 
+    height: 150px; 
+    top:  0; 
+    left: 0; 
+}
+
+a#prev img, a#next img {
+	opacity: 0.25;
+	filter: alpha(opacity = 25);
+	text-decoration: none;
+	border: none;
+}
+
+a#prev img {
+	position: absolute;
+	top: 350px;
+	left: -20px;
+	width: 23px;
+	margin-right: 10px;
+	float: left;
+	margin-top: -300px;
+}
+
+a#next img {
+	position: absolute;
+	top: 350px;
+	left: 703px;
+	width: 23px;
+	margin-left: 10px;
+	margin-top: -300px;
+}
+
+
